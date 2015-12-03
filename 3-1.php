@@ -7,7 +7,7 @@ $length = strlen($directions);
 $position = ['x' => 0, 'y' => 0];
 $houses = ['0,0'];
 
-for ($i = 1; $i < $length; ++$i) {
+for ($i = 0; $i < $length; ++$i) {
     switch ($directions[$i]) {
         case '^':
             ++$position['y'];
