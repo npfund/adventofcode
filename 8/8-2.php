@@ -8,7 +8,6 @@ $slashed = 0;
 foreach ($strings as $string) {
     $raw += strlen($string);
     $slashed += strlen(addslashes($string));
-    var_dump(addslashes($string));
 }
 
 var_dump(($slashed - $raw) + (2 * count($strings)));
