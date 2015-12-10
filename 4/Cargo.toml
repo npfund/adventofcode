@@ -1,0 +1,7 @@
+[package]
+name = "4"
+version = "0.1.0"
+authors = ["Nick Pfundstein <npfund@agileoasis.com>"]
+
+[dependencies]
+rust-crypto = "^0.2"
